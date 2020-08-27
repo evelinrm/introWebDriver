@@ -1,4 +1,4 @@
-package bIntro;
+package test.java.bIntro;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

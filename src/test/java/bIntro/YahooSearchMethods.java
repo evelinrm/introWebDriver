@@ -1,4 +1,4 @@
-package bIntro;
+package test.java.bIntro;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;

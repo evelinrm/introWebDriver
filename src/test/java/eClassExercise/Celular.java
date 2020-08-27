@@ -1,4 +1,4 @@
-package eClassExercise;
+package test.java.eClassExercise;
 
 public class Celular {
 

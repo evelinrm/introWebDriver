@@ -1,4 +1,4 @@
-package dWaits;
+package test.java.dWaits;
 
 import com.google.common.base.Function;
 import org.openqa.selenium.By;

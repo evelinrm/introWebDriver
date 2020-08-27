@@ -1,4 +1,4 @@
-package dWaits;
+package test.java.dWaits;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

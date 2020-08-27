@@ -1,4 +1,4 @@
-package eClassExercise;
+package test.java.eClassExercise;
 
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;

@@ -1,4 +1,4 @@
-package bIntro;
+package test.java.bIntro;
 
 public class ImdbMovieSearch extends ParentTest{
 
