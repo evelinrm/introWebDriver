@@ -2,8 +2,6 @@ package test.java.eClassExercise;
 
 public class Celular {
 
-
-
     String marcaModelo;
     String nombre;
     double precio;

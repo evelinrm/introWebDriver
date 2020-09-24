@@ -23,7 +23,7 @@ public class YahooSearchMain {	//clase publica YahooSearchMain
 		searchBox.sendKeys("Selenium");	//enviar Selenium  a searchBox
 		searchButton.click();	//dar Click en searchButton
 		
-		WebElement seleniumLink = driver.findElement(By.xpath("//h3[.='Selenium' and ./following-sibling::div[contains(.,'selenium.dev')] ] /a")); //declara objeto seleniumLink
+		WebElement seleniumLink = driver.findElement(By.cssSelector("//h3[.='Selenium' and ./following-sibling::div[contains(.,'selenium.dev')] ] /a")); //declara objeto seleniumLink
 		seleniumLink.click();	//click en SeleniumLink
 		
 		ArrayList<String> windowIds = new ArrayList<String>(driver.getWindowHandles());	//hace unobjeto de tipo lista de arreglos de tipo string llamado windowIds
@@ -36,7 +36,8 @@ public class YahooSearchMain {	//clase publica YahooSearchMain
 		WebElement downloadLink = driver.findElement(By.linkText("Downloads"));	//crea objeto downloadLink de tipo WebElement 
 		downloadLink.click();	//click en download link
 		
-		driver.quit();	//quitar driver
+		driver.quit();	//quita todas las ventanas
+		//driver.close	//cierra la ventana actual
 
 	}
 
